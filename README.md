@@ -21,3 +21,9 @@ An exploratory data analysis of the Titanic dataset investigating key demographi
 1. Clone the repository:
    ```bash
    git clone [https://github.com/your-username/titanic-eda-exploration.git](https://github.com/your-username/titanic-eda-exploration.git)
+## 🤖 Machine Learning Model
+
+- **Algorithm:** Random Forest Classifier (`scikit-learn`)
+- **Accuracy:** **83.80%**
+- **Key Features Used:** `Pclass`, `Sex`, `Age`, `FamilySize`, `Fare`, `Embarked`, `Title`
+- **Evaluation:** Evaluated on an 20% unseen test split using `train_test_split`.
